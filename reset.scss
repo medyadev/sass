@@ -1,0 +1,27 @@
+$red: red;
+$w: green;
+
+$font: 'Montserrat', sans-serif;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+input {
+  outline: none;
+  border: none;
+}

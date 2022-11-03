@@ -1,0 +1,26 @@
+@mixin btn {
+  padding: 10px 30px;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 13px;
+  color: #EB2D66;
+  transition: .4s;
+  border: 1px solid #EB2D66;;
+  background: transparent;
+  &:hover {
+    transform: scale(1.1);
+    background: greenyellow;
+  }
+}
+
+@mixin df {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,211 @@
+@import "global";
+@import "reset";
+@import "mixin";
+
+
+#header {
+  .header {
+    padding: 10px 0;
+    @include df();
+
+    &--nav {
+      a {
+        font-family: $font;
+        font-weight: 400;
+        font-size: 12px;
+        color: #0C76D8;
+        padding: 0 15px;
+      }
+
+      button {
+        @include btn();
+      }
+    }
+  }
+}
+
+#hero {
+  .main {
+    @include df();
+
+    &--left {
+      h1 {
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 44px;
+        color: #2A2D46;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23px;
+        color: #2A2D46;
+      }
+
+      button {
+        @include btn();
+      }
+    }
+
+    &--right {
+      position: relative;
+
+      &__image {
+        img {
+          position: absolute;
+          z-index: 1;
+          top: 70px;
+          left: -150px;
+        }
+      }
+
+    }
+  }
+}
+
+
+#phone {
+  .phone {
+    &--apple {
+      width: 700px;
+      @include df;
+
+      h1 {
+        font-weight: 900;
+        font-size: 25px;
+        color: #2A2D46;
+      }
+
+      a {
+        padding: 0 15px;
+        font-weight: 400;
+        font-size: 13px;
+        color: #0C76D8;
+      }
+    }
+
+    &--slick {
+      .swiper {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+      }
+
+      .swiper-slick {
+        background: #FFFFFF;
+        box-shadow: 0 15px 50px rgba(67, 76, 109, 0.08);
+        width: 300px;
+        height: 400px;
+      }
+
+      .red {
+        @include df();
+        width: 300px;
+      }
+
+    }
+  }
+}
+
+#fon {
+  padding-top: 100px;
+  .fon {
+    @include df;
+    width: 1100px;
+    &--image {
+      img {
+        position: relative;
+      }
+
+      &__title {
+        position: absolute;
+        bottom: -47rem;
+        left: 13rem;
+
+        h1 {
+          font-weight: 900;
+          font-size: 27px;
+          color: #fff;
+          padding-bottom: 10px;
+        }
+
+        p {
+          font-weight: 400;
+          font-size: 16px;
+          color: #fff;
+        }
+      }
+    }
+    &--image1 {
+      img {
+        position: relative;
+      }
+
+      &__title {
+        position: absolute;
+        bottom: -47rem;
+        right: 12rem;
+      }
+
+        h1 {
+          font-weight: 900;
+          font-size: 27px;
+          color: #fff;
+          padding-bottom: 10px;
+        }
+
+        p {
+          font-weight: 400;
+          font-size: 16px;
+          color: #fff;
+        }
+      }
+    }
+}
+#card{
+  .card{
+    flex-wrap: wrap;
+    @include df;
+
+    h1{
+      font-weight: 900;
+      font-size: 25px;
+      color: #2A2D46;
+    }
+&--block {
+  box-shadow: 0 15px 50px rgba(67, 76, 109, 0.08);
+width: 280px;
+  height: 490px;
+
+  &__slick {
+    margin: 10px 10px;
+    h2 {
+
+    }
+    &--bed {
+      @include df;
+      flex-wrap: wrap;
+      width: 200px;
+       p{
+         padding: 5px 0;
+         line-height: 20px;
+       }
+    }
+  }
+}
+  }
+}
+

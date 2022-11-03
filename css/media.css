@@ -1,0 +1,7 @@
+@media (max-width: 1024px) {
+  #hero .main {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

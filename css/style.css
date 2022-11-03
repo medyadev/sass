@@ -1,0 +1,218 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+#header .header {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .header--nav a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #0C76D8;
+  padding: 0 15px;
+}
+#header .header--nav button {
+  padding: 10px 30px;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 13px;
+  color: #EB2D66;
+  transition: 0.4s;
+  border: 1px solid #EB2D66;
+  background: transparent;
+}
+#header .header--nav button:hover {
+  transform: scale(1.1);
+  background: greenyellow;
+}
+
+#hero .main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#hero .main--left h1 {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 44px;
+  color: #2A2D46;
+}
+#hero .main--left p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #2A2D46;
+}
+#hero .main--left button {
+  padding: 10px 30px;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 13px;
+  color: #EB2D66;
+  transition: 0.4s;
+  border: 1px solid #EB2D66;
+  background: transparent;
+}
+#hero .main--left button:hover {
+  transform: scale(1.1);
+  background: greenyellow;
+}
+#hero .main--right {
+  position: relative;
+}
+#hero .main--right__image img {
+  position: absolute;
+  z-index: 1;
+  top: 70px;
+  left: -150px;
+}
+
+#phone .phone--apple {
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#phone .phone--apple h1 {
+  font-weight: 900;
+  font-size: 25px;
+  color: #2A2D46;
+}
+#phone .phone--apple a {
+  padding: 0 15px;
+  font-weight: 400;
+  font-size: 13px;
+  color: #0C76D8;
+}
+#phone .phone--slick .swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#phone .phone--slick .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 340px;
+  height: 400px;
+}
+#phone .phone--slick .swiper-slide img {
+  display: block;
+  width: 100%;
+}
+#phone .phone--slick .swiper-slick {
+  background: #FFFFFF;
+  box-shadow: 0 15px 50px rgba(67, 76, 109, 0.08);
+  width: 300px;
+  height: 400px;
+}
+#phone .phone--slick .red {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+}
+
+#fon {
+  padding-top: 100px;
+}
+#fon .fon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1100px;
+}
+#fon .fon--image img {
+  position: relative;
+}
+#fon .fon--image__title {
+  position: absolute;
+  bottom: -47rem;
+  left: 13rem;
+}
+#fon .fon--image__title h1 {
+  font-weight: 900;
+  font-size: 27px;
+  color: #fff;
+  padding-bottom: 10px;
+}
+#fon .fon--image__title p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+#fon .fon--image1 img {
+  position: relative;
+}
+#fon .fon--image1__title {
+  position: absolute;
+  bottom: -47rem;
+  right: 12rem;
+}
+#fon .fon--image1 h1 {
+  font-weight: 900;
+  font-size: 27px;
+  color: #fff;
+  padding-bottom: 10px;
+}
+#fon .fon--image1 p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
+#card .card {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#card .card h1 {
+  font-weight: 900;
+  font-size: 25px;
+  color: #2A2D46;
+}
+#card .card--block {
+  box-shadow: 0 15px 50px rgba(67, 76, 109, 0.08);
+  width: 280px;
+  height: 490px;
+}
+#card .card--block__slick {
+  margin: 10px 10px;
+}
+#card .card--block__slick--bed {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 200px;
+}
+#card .card--block__slick--bed p {
+  padding: 5px 0;
+  line-height: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
