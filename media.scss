@@ -1,6 +1,16 @@
-@media (max-width: 1024px) {
-  #hero .main {
-    flex-direction: column;
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
   }
+}
+@media(max-width: 1200px ){
+  #fon .fon--image1 img {
+    width: 600px;
+  }
+
+
+
+
+
 }
 

@@ -116,8 +116,8 @@ input {
 #phone .phone--slick .swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 340px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
 }
 #phone .phone--slick .swiper-slide img {
   display: block;
